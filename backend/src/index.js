@@ -7,8 +7,7 @@ const routes = require('./routes');
 const app = express();
 
 
-app.user(cors()); // é possível definir a orgem que pode acessar a aplicação aqui 
-
+app.use(cors()); // é possível definir a orgem que pode acessar a aplicação aqui 
 
 
 // Converte o JSON algo entendivel em JS
